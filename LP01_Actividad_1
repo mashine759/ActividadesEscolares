@@ -1,0 +1,25 @@
+//Añade la libreria para poder tener entrada y salida de datos 
+#include <iostream>
+
+
+int main()
+{
+    //se declara una variable para guardar la edad 
+    int edad = 0;
+    //se imprime en la cosola el texto
+    std::cout<<"Introduce la edad: ";
+    //se guarda en la variable edad la respuesta
+    std::cin>>edad;
+    
+    //si la edad es 18 o mayor imprime el mensaje
+    if(edad >= 18)
+    {
+        std::cout<<"\n\nEs mayor de edad";
+    } 
+    //En caso contrario, que sea menor, se imprime el siguiente mensaje
+    else 
+    {
+        std::cout<<"\n\nEs menor de edad";
+    }
+}
+
