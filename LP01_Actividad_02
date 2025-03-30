@@ -1,0 +1,34 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    //variables para guardar los numeros que se van a introducir
+    float numUno, numDos = 0;
+    //variables que guardaran la respuesta y operacion
+    float suma, mult, divs, resta = 0;
+    
+    
+    //se pide el primer numero
+    cout<<"Introduzca el primer numero: ";
+    //y se espera un numero que se guardara en la variable numUno
+    cin>>numUno;
+
+    //se imprime en la consola para pedir el segundo numero
+    cout<<"Introduzca el segundo numero: ";
+    //y se espera un numero que se guardara en la variable numDos
+    cin>> numDos;
+    
+    //se guarda en las variables correspondientes la operacion de los dos numeros
+    suma = numUno + numDos;
+    resta = numUno - numDos;
+    mult = numUno * numDos;
+    divs = numUno / numDos;
+    
+    //se imprime en consola el resultado
+    cout<<"La suma es: "<< suma;
+    cout<<"\nLa resta es: "<< resta;
+    cout<<"\nLa multiplicacion es: " << mult;
+    cout<<"\nLa division es: "<< divs;
+    
+}
